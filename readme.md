@@ -1,6 +1,6 @@
 # daxUI 🤟
 
-## A 3D Isometric component library for yout custom projects
+## A 3D Isometric component library for your custom projects
 
 Forged in Adobe Illustrator, Isometric designs, perfect for your custom needs
 
