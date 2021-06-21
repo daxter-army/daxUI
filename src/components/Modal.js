@@ -10,7 +10,9 @@ const Modal = (props) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
-      <p className={classes.Heading}>{props.children.alt}</p>
+      <p className={classes.Heading} style={{ color: props.theme }}>
+        {props.children.alt}
+      </p>
       <img
         className={classes.Logo}
         src={props.children.image}
@@ -19,7 +21,7 @@ const Modal = (props) => {
       <br />
       <br />
       <br />
-      <div className={classes.actions}>
+      <div className={classes.actions} style={{ color: props.theme }}>
         <div>
           <p>
             <b>Format:</b> .svg

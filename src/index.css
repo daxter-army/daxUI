@@ -7,6 +7,15 @@ body {
   font-family: "DM Sans", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: #222222; */
+  /* color: white; */
+}
+
+.DarkMode {
+  transition: all 0.25s linear;
   background-color: #222222;
-  color: white;
+}
+.WhiteMode {
+  transition: all 0.25s linear;
+  background-color: white;
 }
