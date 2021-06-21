@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillGithub, AiFillHeart } from "react-icons/ai";
+import { SiRedux } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
 import Footer from "./components/Footer";
 import Image from "./components/Image";
 import Modal from "./components/Modal";
@@ -57,20 +59,22 @@ function App() {
             <span className={classes.ComingSoon}>
               🪄 more magic coming soon...
             </span>
+            <br />
+            <br />
+            <a
+              href="https://www.github.com/daxter-army/daxUI"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: "white" }}
+            >
+              Source code on Github <AiFillGithub />
+            </a>
           </p>
         </div>
       </div>
       <Footer>
-        Made with ❤️ by Mehul Singh Teya <b>|</b>
-        <a
-          href="https://www.github.com/daxter-army/daxUI"
-          target="_blank"
-          rel="noreferrer"
-          style={{ color: "white" }}
-        >
-          {" "}
-          View on Github <AiFillGithub />
-        </a>
+        Made with <FaReact />, <SiRedux /> and <AiFillHeart /> by Mehul Singh
+        Teya
       </Footer>
     </>
   );
