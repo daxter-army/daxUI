@@ -25,7 +25,9 @@ function App() {
       <div className={classes.Flash}></div>
       <div className={classes.Container}>
         <header>
-          <div className={classes.Heading}>daxUI 🤟</div>
+          <div>
+            <span className={classes.Heading}>daxUI 🤟</span>v 0.1.0
+          </div>
           <p className={classes.Tagline}>
             A 3D Isometric component library for your custom projects
           </p>
