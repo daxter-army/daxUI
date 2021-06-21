@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/daxUI/static/css/main.77875c5b.chunk.css",
-    "main.js": "/daxUI/static/js/main.d6edeb39.chunk.js",
-    "main.js.map": "/daxUI/static/js/main.d6edeb39.chunk.js.map",
+    "main.js": "/daxUI/static/js/main.008e0b14.chunk.js",
+    "main.js.map": "/daxUI/static/js/main.008e0b14.chunk.js.map",
     "runtime-main.js": "/daxUI/static/js/runtime-main.b443d952.js",
     "runtime-main.js.map": "/daxUI/static/js/runtime-main.b443d952.js.map",
     "static/js/2.ca36127e.chunk.js": "/daxUI/static/js/2.ca36127e.chunk.js",
@@ -41,6 +41,6 @@
     "static/js/runtime-main.b443d952.js",
     "static/js/2.ca36127e.chunk.js",
     "static/css/main.77875c5b.chunk.css",
-    "static/js/main.d6edeb39.chunk.js"
+    "static/js/main.008e0b14.chunk.js"
   ]
 }
