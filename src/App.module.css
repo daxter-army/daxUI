@@ -1,0 +1,65 @@
+.Container {
+  padding: 50px 20px 0px 20px;
+  text-align: center;
+}
+
+.Heading {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.Flash {
+  height: 10px;
+  color: black;
+  background: linear-gradient(-10deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 300%;
+  background-repeat: no-repeat;
+  animation: gradient 6s ease infinite;
+}
+
+.Tagline {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.SectionHeading {
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+.Images {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  /* border: 2px red solid; */
+}
+
+.Gallery {
+  display: grid;
+  /* border: 2px red solid; */
+}
+
+.ModalOn {
+  grid-template-columns: 70% 30%;
+}
+
+.ModalOff {
+  grid-template-columns: auto;
+}
+
+.ComingSoon {
+  padding: 5px 8px;
+  border: 2px #808080 solid;
+  border-radius: 5px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

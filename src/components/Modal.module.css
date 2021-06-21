@@ -1,0 +1,29 @@
+.Modal {
+  padding: 20px;
+  /* border: 2px #666666 solid; */
+}
+
+.Logo {
+  width: 60%;
+}
+
+.Heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.DownloadBtn {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: 1px white solid;
+  transition: 0.1s;
+}
+
+.DownloadBtn:active {
+  background-color: springgreen;
+}
