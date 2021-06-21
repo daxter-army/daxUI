@@ -4,6 +4,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 import classes from "./Modal.module.css";
 
 const Modal = (props) => {
+  console.log(props.theme);
   return (
     <motion.div
       className={classes.Modal}
@@ -28,11 +29,14 @@ const Modal = (props) => {
           </p>
         </div>
         <div>
-          <button className={classes.DownloadBtn}>
+          <button
+            className={classes.DownloadBtn}
+            style={{ border: `1px ${props.theme} solid` }}
+          >
             <a
               href={props.children.image}
               download={`${props.children.alt}.svg`}
-              style={{ color: "white" }}
+              style={{ color: props.theme }}
             >
               <AiOutlineDownload />
             </a>
