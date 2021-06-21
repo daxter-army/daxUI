@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { AiFillGithub } from "react-icons/ai";
 import Footer from "./components/Footer";
 import Image from "./components/Image";
 import Modal from "./components/Modal";
@@ -58,14 +59,15 @@ function App() {
         </div>
       </div>
       <Footer>
-        Made with ❤️ by{" "}
+        Made with ❤️ by Mehul Singh Teya <b>|</b>
         <a
-          href="https://www.github.com/daxter-army/"
+          href="https://www.github.com/daxter-army/daxUI"
           target="_blank"
           rel="noreferrer"
           style={{ color: "white" }}
         >
-          Mehul Singh Teya
+          {" "}
+          View on Github <AiFillGithub />
         </a>
       </Footer>
     </>
