@@ -8,6 +8,7 @@ import Image from "./components/Image";
 import Modal from "./components/Modal";
 import classes from "./App.module.css";
 import alphabetsPaths from "./fixtures/alphabetsPaths";
+import digitsPaths from "./fixtures/numbersPaths";
 
 function App() {
   const [theme, setTheme] = useState(false);
@@ -89,7 +90,35 @@ function App() {
               <Modal theme={theme ? "black" : "white"}>{modalInfo}</Modal>
             )}
           </div>
-          <p style={{ margin: "0px 0px 10px 0px" }}>
+          <h1
+            className={`${classes.SectionHeading} ${
+              theme ? classes.Dark : classes.White
+            }`}
+          >
+            Numbers
+          </h1>
+          <div
+            className={`${classes.Gallery} ${
+              modal ? classes.ModalOn : classes.ModalOff
+            }`}
+          >
+            <div className={classes.Images}>
+              {digitsPaths.map((item) => {
+                return (
+                  <Image
+                    key={item.id_}
+                    source={item.image}
+                    alterText={item.alt}
+                    onImageClick={() => imageHandler(item)}
+                  />
+                );
+              })}
+            </div>
+            {modal && (
+              <Modal theme={theme ? "black" : "white"}>{modalInfo}</Modal>
+            )}
+          </div>
+          <p style={{ margin: "20px 0px 10px 0px" }}>
             <span
               className={`${classes.ComingSoon} ${
                 theme ? classes.Dark : classes.White
