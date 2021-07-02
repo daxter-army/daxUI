@@ -95,7 +95,7 @@ function App() {
                 theme ? classes.Dark : classes.White
               }`}
             >
-              🪄 more magic coming soon...
+            ✨ more magic coming soon...
             </span>
             <br />
             <br />
