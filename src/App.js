@@ -7,8 +7,10 @@ import Footer from "./components/Footer";
 import Image from "./components/Image";
 import Modal from "./components/Modal";
 import classes from "./App.module.css";
+
 import alphabetsPaths from "./fixtures/alphabetsPaths";
 import digitsPaths from "./fixtures/numbersPaths";
+import specialCharsPaths from "./fixtures/specialCharsPaths";
 
 function App() {
   const [theme, setTheme] = useState(false);
@@ -118,13 +120,41 @@ function App() {
               <Modal theme={theme ? "black" : "white"}>{modalInfo}</Modal>
             )}
           </div>
+          <h1
+            className={`${classes.SectionHeading} ${
+              theme ? classes.Dark : classes.White
+            }`}
+          >
+            Special Characters
+          </h1>
+          <div
+            className={`${classes.Gallery} ${
+              modal ? classes.ModalOn : classes.ModalOff
+            }`}
+          >
+            <div className={classes.Images}>
+              {specialCharsPaths.map((item) => {
+                return (
+                  <Image
+                    key={item.id_}
+                    source={item.image}
+                    alterText={item.alt}
+                    onImageClick={() => imageHandler(item)}
+                  />
+                );
+              })}
+            </div>
+            {modal && (
+              <Modal theme={theme ? "black" : "white"}>{modalInfo}</Modal>
+            )}
+          </div>
           <p style={{ margin: "20px 0px 10px 0px" }}>
             <span
               className={`${classes.ComingSoon} ${
                 theme ? classes.Dark : classes.White
               }`}
             >
-              🪄 more magic coming soon...
+              ✨ more magic coming soon...
             </span>
             <br />
             <br />
