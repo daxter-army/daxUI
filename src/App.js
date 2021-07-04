@@ -154,11 +154,7 @@ function App() {
                 theme ? classes.Dark : classes.White
               }`}
             >
-<<<<<<< HEAD
               ✨ more magic coming soon...
-=======
-            ✨ more magic coming soon...
->>>>>>> da82331119502f0157219c61996360d815cf67dd
             </span>
             <br />
             <br />
