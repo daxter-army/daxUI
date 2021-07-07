@@ -1,22 +1,31 @@
+// REACT
 import React, { useState } from "react";
+
+// REACT-ICONS
 import { AiFillGithub, AiFillHeart } from "react-icons/ai";
 import { FiMoon, FiSun } from "react-icons/fi";
-// import { SiRedux } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
-import Footer from "./components/Footer";
-import Image from "./components/Image";
-import Modal from "./components/Modal";
-import classes from "./App.module.css";
 
+// COMPONENTS
+import Footer from "./components/Footer";
+import Modal from "./components/Modal";
+import Section from "./components/Section";
+
+// FIXTURES
 import alphabetsPaths from "./fixtures/alphabetsPaths";
 import digitsPaths from "./fixtures/numbersPaths";
 import specialCharsPaths from "./fixtures/specialCharsPaths";
 
+// CSS
+import classes from "./App.module.css";
+
 function App() {
+  // STATE VARS
   const [theme, setTheme] = useState(false);
   const [modal, setModal] = useState(false);
   const [modalInfo, setModalInfo] = useState({});
 
+  // THEME MODE TOGGLER
   if (theme) {
     document.body.classList.remove("DarkMode");
     document.body.classList.add("WhiteMode");
@@ -35,6 +44,7 @@ function App() {
     }
   };
 
+  // THEME MODE TOGGLER FUNCTION
   const themeHandler = () => {
     theme ? setTheme(false) : setTheme(true);
   };
@@ -43,6 +53,7 @@ function App() {
     <>
       <div className={classes.Flash}></div>
       <div className={classes.Container}>
+        {/* HEADER STARTS */}
         <header>
           <div className={theme ? classes.Dark : classes.White}>
             <button
@@ -63,86 +74,36 @@ function App() {
             A 3D Isometric component library for your custom projects
           </p>
         </header>
+        {/* HEADER ENDS */}
+        {/* CONTENT STARTS */}
         <div className={classes.Data}>
-          <h1
-            className={`${classes.SectionHeading} ${
-              theme ? classes.Dark : classes.White
-            }`}
-          >
-            Alphabets
-          </h1>
           <div
             className={`${classes.Gallery} ${
               modal ? classes.ModalOn : classes.ModalOff
             }`}
           >
             <div className={classes.Images}>
-              {alphabetsPaths.map((item) => {
-                return (
-                  <Image
-                    key={item.id_}
-                    source={item.image}
-                    alterText={item.alt}
-                    onImageClick={() => imageHandler(item)}
-                  />
-                );
-              })}
-            </div>
-            {modal && (
-              <Modal theme={theme ? "black" : "white"}>{modalInfo}</Modal>
-            )}
-          </div>
-          <h1
-            className={`${classes.SectionHeading} ${
-              theme ? classes.Dark : classes.White
-            }`}
-          >
-            Numbers
-          </h1>
-          <div
-            className={`${classes.Gallery} ${
-              modal ? classes.ModalOn : classes.ModalOff
-            }`}
-          >
-            <div className={classes.Images}>
-              {digitsPaths.map((item) => {
-                return (
-                  <Image
-                    key={item.id_}
-                    source={item.image}
-                    alterText={item.alt}
-                    onImageClick={() => imageHandler(item)}
-                  />
-                );
-              })}
-            </div>
-            {modal && (
-              <Modal theme={theme ? "black" : "white"}>{modalInfo}</Modal>
-            )}
-          </div>
-          <h1
-            className={`${classes.SectionHeading} ${
-              theme ? classes.Dark : classes.White
-            }`}
-          >
-            Special Characters
-          </h1>
-          <div
-            className={`${classes.Gallery} ${
-              modal ? classes.ModalOn : classes.ModalOff
-            }`}
-          >
-            <div className={classes.Images}>
-              {specialCharsPaths.map((item) => {
-                return (
-                  <Image
-                    key={item.id_}
-                    source={item.image}
-                    alterText={item.alt}
-                    onImageClick={() => imageHandler(item)}
-                  />
-                );
-              })}
+              <Section
+                heading="Alphabets"
+                color={theme ? "black" : "white"}
+                imageClicker={imageHandler}
+              >
+                {alphabetsPaths}
+              </Section>
+              <Section
+                heading="Numbers"
+                color={theme ? "black" : "white"}
+                imageClicker={imageHandler}
+              >
+                {digitsPaths}
+              </Section>
+              <Section
+                heading="Special Characters"
+                color={theme ? "black" : "white"}
+                imageClicker={imageHandler}
+              >
+                {specialCharsPaths}
+              </Section>
             </div>
             {modal && (
               <Modal theme={theme ? "black" : "white"}>{modalInfo}</Modal>
@@ -177,7 +138,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* <SiRedux /> */
-}

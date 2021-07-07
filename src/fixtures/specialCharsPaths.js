@@ -9,32 +9,32 @@ const specialChars = [
   {
     id_: "37",
     image: hash,
-    alt: "special-char-hash",
+    alt: "spl-hash",
   },
   {
     id_: "38",
     image: backslash,
-    alt: "special-char-backslash",
+    alt: "spl-bkslsh",
   },
   {
     id_: "39",
     image: percent,
-    alt: "special-char-percent",
+    alt: "spl-prcnt",
   },
   {
     id_: "40",
     image: tilde,
-    alt: "special-char-tilde",
+    alt: "spl-tilde",
   },
   {
     id_: "41",
     image: slash,
-    alt: "special-char-slash",
+    alt: "spl-slash",
   },
   {
     id_: "42",
     image: exclaimation,
-    alt: "special-char-exclaimation",
+    alt: "spl-exc",
   },
 ];
 

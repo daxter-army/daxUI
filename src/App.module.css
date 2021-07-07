@@ -30,16 +30,11 @@
   margin-bottom: 20px;
 }
 
-.SectionHeading {
-  text-align: left;
-  font-size: 2.5rem;
-}
-
-.Images {
+/* .Images {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  /* border: 2px red solid; */
-}
+  border: 2px red solid;
+} */
 
 .Gallery {
   display: grid;
@@ -78,5 +73,19 @@
   }
   100% {
     background-position: 0 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Heading {
+    font-size: 3rem;
+  }
+
+  .themeBtn {
+    font-size: 2rem;
+  }
+
+  .Tagline {
+    font-size: 1rem;
   }
 }

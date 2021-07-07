@@ -3,6 +3,13 @@
   /* border: 2px #666666 solid; */
 }
 
+.Sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .Logo {
   width: 60%;
 }
@@ -25,4 +32,10 @@
 
 .DownloadBtn:active {
   background-color: springgreen;
+}
+
+@media only screen and (max-width: 600px) {
+  .Heading {
+    font-size: 1.5rem;
+  }
 }

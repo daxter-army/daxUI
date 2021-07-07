@@ -13,52 +13,52 @@ const digits = [
   {
     id_: "27",
     image: zero,
-    alt: "digit-0",
+    alt: "nb-0",
   },
   {
     id_: "28",
     image: one,
-    alt: "digit-1",
+    alt: "nb-1",
   },
   {
     id_: "29",
     image: two,
-    alt: "digit-2",
+    alt: "nb-2",
   },
   {
     id_: "30",
     image: three,
-    alt: "digit-3",
+    alt: "nb-3",
   },
   {
     id_: "31",
     image: four,
-    alt: "digit-4",
+    alt: "nb-4",
   },
   {
     id_: "32",
     image: five,
-    alt: "digit-5",
+    alt: "nb-5",
   },
   {
     id_: "33",
     image: six,
-    alt: "digit-6",
+    alt: "nb-6",
   },
   {
     id_: "34",
     image: seven,
-    alt: "digit-7",
+    alt: "nb-7",
   },
   {
     id_: "35",
     image: eight,
-    alt: "digit-8",
+    alt: "nb-8",
   },
   {
     id_: "36",
     image: nine,
-    alt: "digit-9",
+    alt: "nb-9",
   },
 ];
 

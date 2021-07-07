@@ -1,0 +1,15 @@
+.SectionHeading {
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+.Array {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .SectionHeading {
+    font-size: 2rem;
+  }
+}
