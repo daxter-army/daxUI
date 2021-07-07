@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/daxUI/static/css/main.f0f37b5f.chunk.css",
-    "main.js": "/daxUI/static/js/main.f0f4e99c.chunk.js",
-    "main.js.map": "/daxUI/static/js/main.f0f4e99c.chunk.js.map",
+    "main.css": "/daxUI/static/css/main.06fbf176.chunk.css",
+    "main.js": "/daxUI/static/js/main.43a72ae7.chunk.js",
+    "main.js.map": "/daxUI/static/js/main.43a72ae7.chunk.js.map",
     "runtime-main.js": "/daxUI/static/js/runtime-main.b443d952.js",
     "runtime-main.js.map": "/daxUI/static/js/runtime-main.b443d952.js.map",
-    "static/js/2.d6d9620e.chunk.js": "/daxUI/static/js/2.d6d9620e.chunk.js",
-    "static/js/2.d6d9620e.chunk.js.map": "/daxUI/static/js/2.d6d9620e.chunk.js.map",
+    "static/js/2.0f47077c.chunk.js": "/daxUI/static/js/2.0f47077c.chunk.js",
+    "static/js/2.0f47077c.chunk.js.map": "/daxUI/static/js/2.0f47077c.chunk.js.map",
     "index.html": "/daxUI/index.html",
-    "static/css/main.f0f37b5f.chunk.css.map": "/daxUI/static/css/main.f0f37b5f.chunk.css.map",
-    "static/js/2.d6d9620e.chunk.js.LICENSE.txt": "/daxUI/static/js/2.d6d9620e.chunk.js.LICENSE.txt",
+    "static/css/main.06fbf176.chunk.css.map": "/daxUI/static/css/main.06fbf176.chunk.css.map",
+    "static/js/2.0f47077c.chunk.js.LICENSE.txt": "/daxUI/static/js/2.0f47077c.chunk.js.LICENSE.txt",
     "static/media/a.b200d732.svg": "/daxUI/static/media/a.b200d732.svg",
     "static/media/b.babf2007.svg": "/daxUI/static/media/b.babf2007.svg",
     "static/media/backslash.a956c1a5.svg": "/daxUI/static/media/backslash.a956c1a5.svg",
@@ -55,8 +55,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b443d952.js",
-    "static/js/2.d6d9620e.chunk.js",
-    "static/css/main.f0f37b5f.chunk.css",
-    "static/js/main.f0f4e99c.chunk.js"
+    "static/js/2.0f47077c.chunk.js",
+    "static/css/main.06fbf176.chunk.css",
+    "static/js/main.43a72ae7.chunk.js"
   ]
 }
