@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/daxUI/static/css/main.06fbf176.chunk.css",
+    "main.css": "/daxUI/static/css/main.672844ed.chunk.css",
     "main.js": "/daxUI/static/js/main.43a72ae7.chunk.js",
     "main.js.map": "/daxUI/static/js/main.43a72ae7.chunk.js.map",
     "runtime-main.js": "/daxUI/static/js/runtime-main.b443d952.js",
@@ -8,7 +8,7 @@
     "static/js/2.0f47077c.chunk.js": "/daxUI/static/js/2.0f47077c.chunk.js",
     "static/js/2.0f47077c.chunk.js.map": "/daxUI/static/js/2.0f47077c.chunk.js.map",
     "index.html": "/daxUI/index.html",
-    "static/css/main.06fbf176.chunk.css.map": "/daxUI/static/css/main.06fbf176.chunk.css.map",
+    "static/css/main.672844ed.chunk.css.map": "/daxUI/static/css/main.672844ed.chunk.css.map",
     "static/js/2.0f47077c.chunk.js.LICENSE.txt": "/daxUI/static/js/2.0f47077c.chunk.js.LICENSE.txt",
     "static/media/a.b200d732.svg": "/daxUI/static/media/a.b200d732.svg",
     "static/media/b.babf2007.svg": "/daxUI/static/media/b.babf2007.svg",
@@ -56,7 +56,7 @@
   "entrypoints": [
     "static/js/runtime-main.b443d952.js",
     "static/js/2.0f47077c.chunk.js",
-    "static/css/main.06fbf176.chunk.css",
+    "static/css/main.672844ed.chunk.css",
     "static/js/main.43a72ae7.chunk.js"
   ]
 }
